@@ -1,0 +1,90 @@
+header {
+  border: 2px grey solid;
+  background-color: grey;
+}
+body {
+  color: white;
+  background-image: url('https://i.imgur.com/wuy80GG.jpg');
+}
+input {
+  display: block;
+  margin : 0 auto;
+  position: relative;
+}
+img {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+#banner3{
+  width: 1475px;
+  height: 190px;
+}
+#banner2{
+  width: 1475px;
+  height: 190px;
+}
+#banner1{
+  width: 1475px;
+  height: 190px;
+}
+#banner {
+  width: 1500px;
+  height: 500px;
+  padding: 5px;
+  background-image: 
+}
+#title {
+  display: inline-block;
+  vertical-align: 30px;
+  font-size: 50px;
+  font-weight: bold; 
+  color: black;
+  }
+#nav-bar1 {
+  overflow: hidden;
+  position: fixed;
+  border: 5px black solid;
+  top: 8px;
+  right: 15px;
+  font-weight: bold;  
+  display: inline-block;
+  justify-content: right;
+  background-color: black;
+}
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+#video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h4 {
+  color: Yellow;
+}
+h5 {
+  color: red;
+}
+#metal {
+ float: right;
+ width: 33.33%;
+}
+#wood {
+  float: center;
+  width: 33.33%;
+}
+#leather {
+  float: left;
+  width: 33.33%;
+}
+main {
+  flex-wrap:wrap;
+}
+@media (max-width: 650px) {
+     #ul {
+       flex-direction: column;
+     }
